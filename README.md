@@ -1,9 +1,9 @@
-<a href="https://react-speech-transcriber.com" target="_blank" rel="noopener">
+<!-- <a href="https://react-speech-transcriber.com" target="_blank" rel="noopener">
   <picture>
     <source media="(prefers-color-scheme: dark)" alt="React Speech Transcriber" srcset="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2_dark.png" />
     <img alt="Excalidraw" src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2.png" />
   </picture>
-</a>
+</a> -->
 
 <h4 align="center">
   <!-- <a href="https://react-speech-transcriber.com">Excalidraw Editor</a> | -->
@@ -14,9 +14,7 @@
 
 <div align="center">
   <h2>
-    An open source virtual hand-drawn style whiteboard. </br>
-    Collaborative and end-to-end encrypted. </br>
-  <br />
+    A simple React tool for transcribing speech to text.
   </h2>
 </div>
 
@@ -59,12 +57,11 @@ The React Speech Transcriber (npm package) supports:
 <!-- - 💯&nbsp;Free & open-source. -->
 - 🎨&nbsp;Speech-to-text(STT) transcription.
 - ✍️&nbsp;Supports Google STT engine.
-<!-- - 👅&nbsp;Localization (i18n) support. -->
 - ⚒️&nbsp;Wide range of audio files - mp3, wav, aac...
 
 ## ReactSpeechToText.com
 
-The app hosted at [react-speech-transcriber.com](https://react-speech-transcriber.com) is a minimal showcase of what you can build with React Speech Transcriber. Its [source code](https://github.com/astongemmy/react-speech-transcriber/main/src) is part of this repository as well, and the app features:
+The app hosted at [react-speech-transcriber.com](https://react-speech-transcriber.com) is a minimal showcase of what you can build with React Speech Transcriber. Its [source code](https://github.com/astongemmy/react-speech-transcriber/tree/main/src) is part of this repository as well, and the app features:
 
 <!-- - 📡&nbsp;PWA support (works offline). -->
 <!-- - 🤼&nbsp;Real-time collaboration. -->
@@ -90,17 +87,17 @@ Check out our [documentation](https://docs.react-speech-transcriber.com/installa
 - Missing something or found a bug? [Report here](https://github.com/astongemmy/react-speech-transcriber/issues).
 - Want to help with translations? See the [translation guide](https://docs.react-speech-transcriber.com/translating).
 
-## Integrations
+<!-- ## Integrations
 
-- [npm package](https://www.npmjs.com/package/react-speech-transcriber)
+- [npm package](https://www.npmjs.com/package/react-speech-transcriber) -->
 
 <!-- ## Who's integrating React Speech Transcriber
 
 [Google Cloud](https://googlecloudcheatsheet.withgoogle.com/architecture) • [Meta](https://meta.com/) • [CodeSandbox](https://codesandbox.io/) • [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) • [Replit](https://replit.com/) • [Slite](https://slite.com/) • [Notion](https://notion.so/) • [HackerRank](https://www.hackerrank.com/) • and many others -->
 
-## Sponsors & support
+<!-- ## Sponsors & support
 
-If you like the project, you can become a sponsor at [Open Collective](https://opencollective.com/react-speech-transcriber).
+If you like the project, you can become a sponsor at [Open Collective](https://opencollective.com/react-speech-transcriber). -->
 
 <!-- ## Thank you for supporting React Speech Transcriber
 
