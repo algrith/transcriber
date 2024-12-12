@@ -1,0 +1,27 @@
+{
+  "repository": {
+    "url": "git+https://github.com/astongemmy/react-speech-transcriber.git",
+    "type": "git"
+  },
+  "name": "react-speech-transcriber",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^19.0.2",
+    "@types/react": "^19.0.1",
+    "microbundle": "^0.15.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "react-dom": "^19.0.0",
+    "react": "^19.0.0"
+  }
+}
