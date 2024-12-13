@@ -1,16 +1,16 @@
 {
   "repository": {
-    "url": "git+https://github.com/astongemmy/react-speech-transcriber.git",
+    "url": "git+https://github.com/algrith/transcriber.git",
     "type": "git"
   },
-  "name": "react-speech-transcriber",
+  "homepage": "https://packages.algrith.com/transcriber",
   "module": "dist/index.module.js",
+  "name": "@algrith/transcriber",
   "unpkg": "dist/index.umd.js",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "version": "1.0.0",
   "type": "module",
-  "homepage": ".",
   "scripts": {
     "dev": "microbundle watch",
     "build": "microbundle"
@@ -27,5 +27,20 @@
   "dependencies": {
     "react-dom": "^19.0.0",
     "react": "^19.0.0"
+  },
+  "description": "A simple React Speech transcriber",
+  "directories": {
+    "example": "examples"
+  },
+  "keywords": [
+    "Transcribe",
+    "Speech-to-Text",
+    "STT"
+  ],
+  "author": "algrith",
+  "license": "MIT",
+  "types": "./dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/algrith/transcriber/issues"
   }
 }

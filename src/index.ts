@@ -39,6 +39,7 @@ const useTranscriber = (apiKey: string, options: TranscriberOptions) => {
       })
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         const transcript = data.results.map((result: Record<string, any>) => (
           result.alternatives[0].transcript
         )).join('\n');
@@ -51,7 +52,7 @@ const useTranscriber = (apiKey: string, options: TranscriberOptions) => {
         }));
       })
       .catch((error) => {
-        console.error('Error performing speech-to-text:', error);
+        console.error('An error occurred during transcription:', error);
         setResponse((prev) => ({
           ...prev,
           loading: false,
