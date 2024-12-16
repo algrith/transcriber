@@ -47,7 +47,7 @@ yarn add @algrith/transcriber
 
 ##  Usage & Examples
 
-Currently, there is an implemented usage for [NextJs (Using page router) example](https://github.com/algrith/transcriber/main/examples/with-nextjs).
+Currently, there is an implemented usage for [NextJs (Using page router) example](https://github.com/algrith/transcriber/tree/main/examples/with-nextjs).
 
 **Note:** Currently, we only support Google STT engine.
 
