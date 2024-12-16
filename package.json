@@ -3,7 +3,7 @@
     "url": "git+https://github.com/algrith/transcriber.git",
     "type": "git"
   },
-  "homepage": "https://packages.algrith.com/transcriber",
+  "homepage": "https://github.com/algrith/transcriber",
   "module": "dist/index.module.js",
   "name": "@algrith/transcriber",
   "unpkg": "dist/index.umd.js",
@@ -28,7 +28,7 @@
     "react-dom": "^19.0.0",
     "react": "^19.0.0"
   },
-  "description": "A simple React Speech transcriber",
+  "description": "A lightweight npm utility built on the Google speech-to-text API for converting pre-recorded speech to text, ideal for processing audio files, creating captions, and enhancing accessibility.",
   "directories": {
     "example": "examples"
   },
@@ -37,7 +37,7 @@
     "Speech-to-Text",
     "STT"
   ],
-  "author": "algrith",
+  "author": "Algrith LLC <algrithllc@gmail.com> (https://algrith-astongemmy.vercel.app)",
   "license": "MIT",
   "types": "./dist/index.d.ts",
   "bugs": {

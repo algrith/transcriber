@@ -6,9 +6,12 @@ import { TranscriberWrapper } from './styled';
 import { Timer } from '../utils/timer';
 
 const apiKey = process.env.NEXT_PUBLIC_GOOGLE_API_KEY;
+const options = {
+  engine: 'google'
+};
 
 const Transcriber = () => {
-  const { transcribe, response } = useTranscriber(apiKey, { engine: 'google' });
+  const { transcribe, response } = useTranscriber(apiKey, options);
   const { transcript, loading, error } = response;
   const waveformRef = useRef();
   const {

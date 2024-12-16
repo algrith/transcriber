@@ -1,1 +1,1 @@
-Algrith Speech to Text App
+Algrith Transcriber NextJs Example
