@@ -15,18 +15,24 @@
     "dev": "microbundle watch",
     "build": "microbundle"
   },
+  "files": [
+    "/LICENSE",
+    "/README.md",
+    "/dist",
+    "/package.json"
+  ],
   "devDependencies": {
     "@types/react-dom": "^19.0.2",
     "@types/react": "^19.0.1",
     "microbundle": "^0.15.1",
     "typescript": "^5.7.2"
   },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
   "engines": {
     "node": "18.0.0 - 22.x.x"
-  },
-  "dependencies": {
-    "react-dom": "^19.0.0",
-    "react": "^19.0.0"
   },
   "description": "A lightweight npm utility built on the Google speech-to-text API for converting pre-recorded speech to text, ideal for processing audio files, creating captions, and enhancing accessibility.",
   "directories": {
@@ -42,5 +48,8 @@
   "types": "./dist/index.d.ts",
   "bugs": {
     "url": "https://github.com/algrith/transcriber/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

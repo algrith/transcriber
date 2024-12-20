@@ -11,7 +11,7 @@
 
 <div align="center">
   <h2>
-    A lightweight npm utility built on the Google speech-to-text API for converting pre-recorded speech to text, ideal for processing audio files, creating captions, and enhancing accessibility.
+    A lightweight React utility built on the Google speech-to-text API for converting pre-recorded speech to text, ideal for processing audio files, creating captions, and enhancing accessibility.
   </h2>
 </div>
 
@@ -51,7 +51,7 @@ Currently, there is an implemented usage for [NextJs (Using page router) example
 
 **Note:** Currently, we only support Google STT engine.
 
-```
+```javascript
 import useTranscriber from '@algrith/transcriber';
 
 const apiKey = // Your Google API key;
@@ -59,7 +59,34 @@ const options = {
   engine: 'google'  //  Currently only Google engine is supported.
 }
 
-const { transcribe, response } = useTranscriber(apiKey, options);
+const Transcriber = (somePreRecordedBlob: Blob) => {
+  const { transcribe, response } = useTranscriber(apiKey, options);
+
+  // You can call transcribe with an audio blob
+  const handleTranscription = () => transcribe(somePreRecordedBlob);
+
+  return (
+    <div>
+      <button type="button" disabled={response.loading} onClick={handleTranscription}>
+        Transcribe audio
+      </button>
+
+      <div>
+        {response.transcript && (
+          <p>{response.transcript}</p>
+        )}
+        
+        {response.loading && (
+          <p>Transcribing audio...please wait!</p>
+        )}
+
+        {response.error && (
+          <p>An error occurred: {response.error}</p>
+        )}
+      </div>
+    </div>
+  );
+};
 
 export default Transcriber;
 ```

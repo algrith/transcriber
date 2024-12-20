@@ -24,3 +24,5 @@ yarn-error.log*
 examples/*
 coverage
 dev-dist
+tsconfig.json
+src
